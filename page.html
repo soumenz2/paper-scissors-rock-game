@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>paperRockGame</title>
+</head>
+<body>
+
+    <div class="box1">
+        <div class="listbox"><ul><li>ROCK</li>
+            <li>PAPER</li>
+            <li>SCISSORS</li>
+        </ul></div>
+        
+    <div class="counterbox">
+        <p >COMPUTER SCORE</p>
+        <p id="computer-score">0</p>
+    </div>
+    <div class="counterbox">
+        <p >YOUR SCORE</p>
+        <p id="user-score">0</p>
+    </div>
+
+ 
+
+ </div>
+ <div class="moves">
+    <div class="choice" data-choice="rock"><img src="rock.png" alt="rock"></div>
+ <div class="choice" data-choice="scissors"><img src="scissors.png" alt=""></div>
+ <div class="choice" data-choice="paper"><img src="paper.png" alt=""></div>
+
+ </div>
+ <div class="result">
+    <p id="message">Make your move!</p>
+</div>
+ <button id="rules-btn">Rules</button>
+    <div id="rules-popup" class="popup">
+        <div class="popup-content">
+            <span id="close-btn">&times;</span>
+            <h2>Rules</h2>
+            <p>Rock beats Scissors, Scissors beats Paper, Paper beats Rock.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
